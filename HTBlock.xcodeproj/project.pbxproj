@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232C253816C91BAC00B26B66 /* UIControl+HTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 232C253716C91BAC00B26B66 /* UIControl+HTBlock.m */; };
 		238ECDDB16C8CE2B000BFB53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238ECDDA16C8CE2B000BFB53 /* Foundation.framework */; };
 		238ECDEE16C8CE3E000BFB53 /* UIAlertView+HTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 238ECDE916C8CE3E000BFB53 /* UIAlertView+HTBlock.m */; };
 		238ECDEF16C8CE3E000BFB53 /* UIActionSheet+HTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 238ECDEB16C8CE3E000BFB53 /* UIActionSheet+HTBlock.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		232C253616C91BAC00B26B66 /* UIControl+HTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HTBlock.h"; sourceTree = "<group>"; };
+		232C253716C91BAC00B26B66 /* UIControl+HTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HTBlock.m"; sourceTree = "<group>"; };
 		238ECDD716C8CE2B000BFB53 /* libHTBlock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTBlock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		238ECDDA16C8CE2B000BFB53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		238ECDDE16C8CE2B000BFB53 /* HTBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTBlock-Prefix.pch"; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				238ECDEB16C8CE3E000BFB53 /* UIActionSheet+HTBlock.m */,
 				238ECDEC16C8CE3E000BFB53 /* UIImagePickerController+HTBlock.h */,
 				238ECDED16C8CE3E000BFB53 /* UIImagePickerController+HTBlock.m */,
+				232C253616C91BAC00B26B66 /* UIControl+HTBlock.h */,
+				232C253716C91BAC00B26B66 /* UIControl+HTBlock.m */,
 				238ECDDD16C8CE2B000BFB53 /* Supporting Files */,
 			);
 			path = HTBlock;
@@ -150,6 +155,7 @@
 				238ECDEE16C8CE3E000BFB53 /* UIAlertView+HTBlock.m in Sources */,
 				238ECDEF16C8CE3E000BFB53 /* UIActionSheet+HTBlock.m in Sources */,
 				238ECDF016C8CE3E000BFB53 /* UIImagePickerController+HTBlock.m in Sources */,
+				232C253816C91BAC00B26B66 /* UIControl+HTBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +258,7 @@
 				238ECDE716C8CE2B000BFB53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
