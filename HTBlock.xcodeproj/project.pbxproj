@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		232C253816C91BAC00B26B66 /* UIControl+HTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 232C253716C91BAC00B26B66 /* UIControl+HTBlock.m */; };
-		238ECDDB16C8CE2B000BFB53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238ECDDA16C8CE2B000BFB53 /* Foundation.framework */; };
+		238ECDDB16C8CE2B000BFB53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238ECDDA16C8CE2B000BFB53 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		238ECDEE16C8CE3E000BFB53 /* UIAlertView+HTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 238ECDE916C8CE3E000BFB53 /* UIAlertView+HTBlock.m */; };
 		238ECDEF16C8CE3E000BFB53 /* UIActionSheet+HTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 238ECDEB16C8CE3E000BFB53 /* UIActionSheet+HTBlock.m */; };
 		238ECDF016C8CE3E000BFB53 /* UIImagePickerController+HTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 238ECDED16C8CE3E000BFB53 /* UIImagePickerController+HTBlock.m */; };
