@@ -29,6 +29,7 @@
 /* Begin PBXFileReference section */
 		232C253616C91BAC00B26B66 /* UIControl+HTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HTBlock.h"; sourceTree = "<group>"; };
 		232C253716C91BAC00B26B66 /* UIControl+HTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HTBlock.m"; sourceTree = "<group>"; };
+		23866AF516D3831600309330 /* HTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBlock.h; sourceTree = "<group>"; };
 		238ECDD716C8CE2B000BFB53 /* libHTBlock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTBlock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		238ECDDA16C8CE2B000BFB53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		238ECDDE16C8CE2B000BFB53 /* HTBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTBlock-Prefix.pch"; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		238ECDDC16C8CE2B000BFB53 /* HTBlock */ = {
 			isa = PBXGroup;
 			children = (
+				23866AF516D3831600309330 /* HTBlock.h */,
 				238ECDE816C8CE3E000BFB53 /* UIAlertView+HTBlock.h */,
 				238ECDE916C8CE3E000BFB53 /* UIAlertView+HTBlock.m */,
 				238ECDEA16C8CE3E000BFB53 /* UIActionSheet+HTBlock.h */,
