@@ -29,10 +29,14 @@
 @implementation UIActionSheet (HTBlock)
 
 - (id)initWithTitle:(NSString *)title cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSArray *)otherButtonTitles dismissBlock:(void(^)(UIActionSheet* actionSheet, NSUInteger buttonIndex))dismissBlock{
-    self = [self initWithTitle:title delegate:nil cancelButtonTitle:cancelButtonTitle destructiveButtonTitle:destructiveButtonTitle otherButtonTitles:nil];
+    self = [self initWithTitle:title delegate:nil cancelButtonTitle:nil destructiveButtonTitle:destructiveButtonTitle otherButtonTitles:nil];
     if (self) {
         for (NSString* otherTitle in otherButtonTitles) {
             [self addButtonWithTitle:otherTitle];
+        }
+        if (cancelButtonTitle) {
+            [self addButtonWithTitle:cancelButtonTitle];
+            self.cancelButtonIndex = self.numberOfButtons - 1;
         }
         self.dismissBlock = dismissBlock;
         self.delegate = self;
