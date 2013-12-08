@@ -23,4 +23,10 @@
 
 - (id)initWithTitle:(NSString *)title cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSArray *)otherButtonTitles dismissBlock:(void(^)(UIActionSheet* actionSheet, NSUInteger buttonIndex))dismissBlock;
 
+- (id)initWithTitle:(NSString *)title cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSArray *)otherButtonTitles willDismissBlock:(void(^)(UIActionSheet* actionSheet, NSUInteger buttonIndex))willDismissBlock;
+
+- (id)initWithTitle:(NSString *)title cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSArray *)otherButtonTitles willDismissBlock:(void(^)(UIActionSheet* actionSheet, NSUInteger buttonIndex))willDismissBlock didDismissBlock:(void(^)(UIActionSheet* actionSheet, NSUInteger buttonIndex))didDismissBlock;
+
+
+
 @end
